@@ -1,40 +1,49 @@
 <template>
-  <span>
-    <div id="header" class="block bg-fixed">
-      <NavBar />
-      <div class="text-center absolute centerMainText">
+  <span class="text-white text-center">
+    <div id="header">
+      <div class="mt-40">
         <div class="text-5xl">DiscLists</div>
         <div class="text-xl">(대충 pmh가 좋은소개글 생각해낼꺼임)</div>
       </div>
-      <a class="arrowBox block">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
     </div>
-    <div id="aboutUs" class="mx-4 lg:ml-64 mr-0">
-      about us
+    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+      <div class="text-center text-4xl">
+        about us
+      </div>
+      <div>
+        (여기도 아마 pmh 가 적어줄거임.. )
+      </div>
+    </div>
+    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+      <div class="text-center text-4xl">
+        Service Introduction
+      </div>
+      <div class="lg:grid grid-cols-3 gap-4 flex justify-center">
+        <ServiceInfoCard />
+      </div>
+    </div>
+    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+      <div class="text-center text-4xl">
+        OurTeam
+      </div>
+      <div>
+        (여기도 아마 pmh 가 적어줄거임.. )
+      </div>
     </div>
   </span>
 </template>
 
 <script>
-import NavBar from './../components/Navbar'
+import ServiceInfoCard from './../components/ServiceInfoCard'
 export default {
   name: 'Home',
   components: {
-    NavBar
+    ServiceInfoCard
   }
 }
 </script>
 
 <style>
-#header {
-  background-image: url('https://picsum.photos/1920/1080');
-  background-size: cover;
-  height: 100vh;
-}
-
 .fullWidth {
   width: 100vw;
 }
