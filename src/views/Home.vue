@@ -2,7 +2,7 @@
   <span>
     <div id="header" class="block bg-fixed">
       <NavBar />
-      <div class="text-center absolute centerMainText fullWidth">
+      <div class="text-center absolute centerMainText">
         <div class="text-5xl">DiscLists</div>
         <div class="text-xl">(대충 pmh가 좋은소개글 생각해낼꺼임)</div>
       </div>
@@ -12,7 +12,7 @@
         <span></span>
       </a>
     </div>
-    <div class="mx-4 lg:mx-64">
+    <div id="aboutUs" class="mx-4 lg:ml-64 mr-0">
       about us
     </div>
   </span>

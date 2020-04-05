@@ -22,10 +22,10 @@
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="text-sm lg:flex-grow">
         <a
-          href="#responsive-header"
+          href="#aboutUs"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
-          Intro
+          about Us
         </a>
       </div>
       <div>
