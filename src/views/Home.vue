@@ -44,7 +44,11 @@ export default {
   name: 'Home',
   data: function() {
     return {
-      serviceInfo: [{ name: 'a', description: 'lorem ipsum asdf', color: '' }]
+      serviceInfo: [
+        { name: 'a', description: 'lorem ipsum asdf', color: '' },
+        { name: 'a', description: 'lorem ipsum asdf', color: '' },
+        { name: 'a', description: 'lorem ipsum asdf', color: '' }
+      ]
     }
   },
   components: {
@@ -101,5 +105,16 @@ export default {
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
   }
+}
+
+.before-enter {
+  opacity: 0;
+  transform: scale(0.5) rotateZ(-25deg);
+  transition: all 1.6s ease-out;
+}
+
+.enter {
+  opacity: 1;
+  transform: scale(1) rotateZ(0deg);
 }
 </style>

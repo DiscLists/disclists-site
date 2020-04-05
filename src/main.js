@@ -4,8 +4,11 @@ import router from './router'
 import store from './store'
 
 import '@/assets/styles/index.css'
+import ScrollAnimation from './ScrollAnimation'
 
 Vue.config.productionTip = false
+
+Vue.directive('scrollanimation', ScrollAnimation)
 
 new Vue({
   router,

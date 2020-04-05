@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="flex items-center justify-between flex-wrap color1 p-6 shadow-xl"
-  >
+  <nav class="flex items-center justify-between flex-wrap color1 p-6 shadow-xl">
     <div class="flex items-center flex-shrink-0 color2 mr-6">
       <span class="font-semibold text-xl tracking-wide">DistLists</span>
     </div>
@@ -26,6 +24,18 @@
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
           about Us
+        </a>
+        <a
+          href="#aboutUs"
+          class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
+        >
+          Service Intro
+        </a>
+        <a
+          href="#aboutUs"
+          class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
+        >
+          OurTeam
         </a>
       </div>
       <div>
