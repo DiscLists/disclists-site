@@ -1,22 +1,11 @@
 <template>
-  <div id="app" class="bg-gray-900">
-    <NavBar />
+  <div id="app" class="">
     <router-view />
   </div>
 </template>
 
 <script>
-import NavBar from "./components/Navbar";
-export default {
-  components: {
-    NavBar
-  }
-};
+export default {}
 </script>
 
-<style>
-#app {
-  height: 100vh;
-  widows: 100vw;
-}
-</style>
+<style></style>
