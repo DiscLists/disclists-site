@@ -4,10 +4,7 @@
       <div class="mt-40">
         <div class="text-5xl">DiscLists</div>
         <div class="text-xl">
-          이것은 다양한 세계에서 소통하기 위해 만들어진 프로젝트입니다.- <br />
-          여러분들이 직접 채널을 창작하고 소통할 수 있으며 또한 홍보도 가능하며
-          <br />
-          모든 것이 자유로운 디스코드입니다. <br />
+          {{ $t('intro') }}
         </div>
       </div>
     </div>
@@ -48,11 +45,20 @@ export default {
         { name: 'a', description: 'lorem ipsum asdf', color: '' },
         { name: 'a', description: 'lorem ipsum asdf', color: '' },
         { name: 'a', description: 'lorem ipsum asdf', color: '' }
-      ]
+      ],
+      introMessage: ''
     }
   },
   components: {
     ServiceInfoCard
+  },
+  mounted() {
+    this.introMessage = this.introMessage.replace(/\n/g, '<br />')
+  },
+  watch: {
+    introMessage() {
+      this.introMessage = this.introMessage.replace(/\n/g, '<br />')
+    }
   }
 }
 </script>
