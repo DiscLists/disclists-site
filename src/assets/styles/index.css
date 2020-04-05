@@ -1,0 +1,17 @@
+@import url("//fonts.googleapis.com/css?family=Do+Hyeon:400");
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
