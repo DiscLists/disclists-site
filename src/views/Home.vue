@@ -57,6 +57,7 @@ import TeamIntro from './../components/TeamIntro'
 export default {
   name: 'Home',
   data: function() {
+    alert($i18n)
     return {
       serviceInfo: [
         { name: $t('bronze'), description: $t('bronzeInt'), color: '' },
