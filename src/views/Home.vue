@@ -1,27 +1,26 @@
 <template>
   <span class="text-white text-center">
-    <div id="header">
-      <div class="mt-40">
-        <div class="text-5xl">DiscLists</div>
+    <div id="header" class="hFull">
+      <div class="pt-40">
+        <div class="mainText">DiscLists</div>
         <div class="text-xl">
           {{ $t('intro') }}
         </div>
       </div>
       <span class="guide hidden lg:inline">
-        <span>지금바로 가입하세요!</span>
         <font-awesome-icon icon="arrow-up" class="ml-4 w-4 h-4" />
       </span>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
-      <div class="text-center text-4xl">
-        about us
+      <div class="text-center text-5xl tekoFont tracking-wide">
+        About Us
       </div>
       <div>
         {{ $t('aboutus') }}
       </div>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
-      <div class="text-center text-4xl">
+      <div class="text-center text-5xl tekoFont tracking-wide">
         Service Introduction
       </div>
       <div class="lg:grid grid-cols-3 gap-4 flex justify-center mt-4">
@@ -31,18 +30,17 @@
       </div>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
-      <div class="text-center text-4xl">
+      <div class="text-center text-5xl tekoFont tracking-wide">
         OurTeam
       </div>
-      <div>
-        (여기도 아마 pmh 가 적어줄거임.. )
-      </div>
+      <TeamIntro />
     </div>
   </span>
 </template>
 
 <script>
 import ServiceInfoCard from './../components/ServiceInfoCard'
+import TeamIntro from './../components/TeamIntro'
 export default {
   name: 'Home',
   data: function() {
@@ -53,22 +51,40 @@ export default {
         { name: 'Silver', description: 'lorem ipsum asdf', color: '' },
         { name: 'Platinum', description: 'lorem ipsum asdf', color: '' },
         { name: 'Diamonds', description: 'lorem ipsum asdf', color: '' },
-        { name: 'SsppHire', description: 'lorem ipsum asdf', color: '' }
+        { name: 'Sapphire', description: 'lorem ipsum asdf', color: '' }
       ]
     }
   },
   components: {
-    ServiceInfoCard
+    ServiceInfoCard,
+    TeamIntro
   },
   mounted() {}
 }
 </script>
 
 <style>
+.mainText {
+  font-size: 7em;
+  font-family: 'Teko', sans-serif;
+  text-shadow: 8px 8px #000;
+  text-transform: uppercase;
+}
+
+.tekoFont{
+  font-family: 'Teko', sans-serif;
+}
+
+.hFull {
+  height: 90vh;
+}
+.darkBG {
+  background-color: #292929;
+}
 .guide {
   position: absolute;
   top: 13%;
-  right: 3%;
+  right: 4%;
 }
 
 .fullWidth {

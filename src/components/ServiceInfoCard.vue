@@ -1,6 +1,6 @@
 <template>
   <div v-scrollanimation>
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">{{ data.name }}</div>
         <p class="text-gray-600 text-base">

@@ -17,6 +17,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 library.add(fas)
 library.add(far)
 
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
+
 Vue.config.productionTip = false
 
 Vue.directive('scrollanimation', ScrollAnimation)

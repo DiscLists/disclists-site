@@ -1,15 +1,16 @@
-@import url("//fonts.googleapis.com/css?family=Do+Hyeon:400");
+@import url('//fonts.googleapis.com/css?family=Do+Hyeon:400');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Do Hyeon", sans-serif;
+  /* font-family: "Do Hyeon", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 @tailwind base;
