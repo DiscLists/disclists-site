@@ -26,66 +26,38 @@
           about Us
         </a>
         <a
-          href="#aboutUs"
+          href="#serviceIntro"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
           Service Intro
         </a>
         <a
-          href="#aboutUs"
+          href="#ourTeam"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
           OurTeam
         </a>
       </div>
       <div>
-        <div class="dropdown inline-block relative mr-4">
-          <button
-            class=" text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center"
-          >
-            <span class="mr-1">SelectLanguage</span>
-            <svg
-              class="fill-current h-4 w-4"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-              />
-            </svg>
-          </button>
-          <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 ">
-            <li class="">
-              <button
-                class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                @click="$i18n.locale = 'ko'"
-              >
-                Korean
-              </button>
-            </li>
-            <li class="">
-              <button
-                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                @click="$i18n.locale = 'en'"
-              >
-                English
-              </button>
-            </li>
-            <li class="">
-              <span
-                class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                href="#"
-                >아희</span
-              >
-            </li>
-          </ul>
-        </div>
-        <a
-          href="https://discord.gg/bGkKVSj"
-          class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 lg:mt-0"
-          >Join Server</a
+        <button
+          class="text-white mx-4 text-sm hover:text-gray-400"
+          @click="$i18n.locale = 'ko'"
         >
+          KO
+        </button>
+        <span class="text-white">/</span>
+        <button
+          class="text-white mx-4 text-sm hover:text-gray-400"
+          @click="$i18n.locale = 'en'"
+        >
+          EN
+        </button>
       </div>
+      <a
+        href="https://discord.gg/bGkKVSj"
+        class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 lg:mt-0"
+        >Join Server</a
+      >
     </div>
   </nav>
 </template>

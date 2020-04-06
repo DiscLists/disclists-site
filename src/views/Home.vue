@@ -1,10 +1,12 @@
 <template>
   <span class="text-white text-center">
     <div id="header" class="hFull">
-      <div class="pt-40">
+      <div class="introSection">
         <div class="mainText">Disc Lists</div>
         <div class="text-xl">
-          {{ $t('intro') }}
+          <div>{{ $t('intro1') }}</div>
+          <div>{{ $t('intro2') }}</div>
+          <div>{{ $t('intro3') }}</div>
         </div>
       </div>
       <span class="guide hidden lg:inline">
@@ -21,7 +23,7 @@
       <span></span>
       <span></span>
     </div>
-    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+    <div id="aboutUs" class="mx-4 lg:mx-64 mt-18">
       <div class="text-center text-5xl tekoFont tracking-wide">
         About Us
       </div>
@@ -29,7 +31,7 @@
         {{ $t('aboutus') }}
       </div>
     </div>
-    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+    <div id="serviceIntro" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
         Service Introduction
       </div>
@@ -39,9 +41,9 @@
         </div>
       </div>
     </div>
-    <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
+    <div id="ourTeam" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        OurTeam
+        Staffs
       </div>
       <TeamIntro />
     </div>
@@ -74,6 +76,10 @@ export default {
 </script>
 
 <style>
+.introSection {
+  margin-top: 26vh;
+}
+
 .mainText {
   font-size: 7em;
   font-family: 'Teko', sans-serif;
