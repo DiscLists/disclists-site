@@ -7,21 +7,27 @@
           {{ $t('intro') }}
         </div>
       </div>
+      <span class="guide hidden lg:inline">
+        <span>지금바로 가입하세요!</span>
+        <font-awesome-icon icon="arrow-up" class="ml-4 w-4 h-4" />
+      </span>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-4xl">
         about us
       </div>
-      <div></div>
+      <div>
+        {{ $t('aboutus') }}
+      </div>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-4xl">
         Service Introduction
       </div>
-      <div class="lg:grid grid-cols-3 gap-4 flex justify-center">
-        <span v-for="(item, index) in serviceInfo" :key="index">
+      <div class="lg:grid grid-cols-3 gap-4 flex justify-center mt-4">
+        <div v-for="(item, index) in serviceInfo" :key="index">
           <ServiceInfoCard :data="item" />
-        </span>
+        </div>
       </div>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
@@ -42,28 +48,29 @@ export default {
   data: function() {
     return {
       serviceInfo: [
-        { name: 'a', description: 'lorem ipsum asdf', color: '' },
-        { name: 'a', description: 'lorem ipsum asdf', color: '' },
-        { name: 'a', description: 'lorem ipsum asdf', color: '' }
-      ],
-      introMessage: ''
+        { name: 'Bronze', description: 'lorem ipsum asdf', color: '' },
+        { name: 'Gold', description: 'lorem ipsum asdf', color: '' },
+        { name: 'Silver', description: 'lorem ipsum asdf', color: '' },
+        { name: 'Platinum', description: 'lorem ipsum asdf', color: '' },
+        { name: 'Diamonds', description: 'lorem ipsum asdf', color: '' },
+        { name: 'SsppHire', description: 'lorem ipsum asdf', color: '' }
+      ]
     }
   },
   components: {
     ServiceInfoCard
   },
-  mounted() {
-    this.introMessage = this.introMessage.replace(/\n/g, '<br />')
-  },
-  watch: {
-    introMessage() {
-      this.introMessage = this.introMessage.replace(/\n/g, '<br />')
-    }
-  }
+  mounted() {}
 }
 </script>
 
 <style>
+.guide {
+  position: absolute;
+  top: 13%;
+  right: 3%;
+}
+
 .fullWidth {
   width: 100vw;
 }

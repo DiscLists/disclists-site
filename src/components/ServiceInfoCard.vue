@@ -21,7 +21,7 @@ export default {
 .before-enter {
   opacity: 0;
   transform: scale(0.5) rotateZ(-25deg);
-  transition: all 1.6s ease-out;
+  transition: all 1.3s ease-out;
 }
 
 .enter {
