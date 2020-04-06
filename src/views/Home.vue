@@ -2,7 +2,7 @@
   <span class="text-white text-center">
     <div id="header" class="hFull">
       <div class="introSection">
-        <div class="mainText">Disc Lists</div>
+        <div class="mainText">DiscLists</div>
         <div class="text-xl">
           <div>{{ $t('intro1') }}</div>
           <div>{{ $t('intro2') }}</div>
@@ -25,7 +25,7 @@
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-18">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        About Us
+        {{$t('aboutusTitle')}}
       </div>
       <div>
         {{ $t('aboutus') }}
@@ -33,9 +33,10 @@
     </div>
     <div id="serviceIntro" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        Service Introduction
+        {{$t('serviceIntroTitle')}}
       </div>
-      <div class="lg:grid grid-cols-3 gap-4 flex justify-center mt-4">
+      <div class="lg:grid grid-cols-3 gap-4 flex justify-cen임er mt-4">
+        <!-- 이거는 저기 밑에 script->data->serverinfo 임 -->
         <div v-for="(item, index) in serviceInfo" :key="index">
           <ServiceInfoCard :data="item" />
         </div>
@@ -43,7 +44,7 @@
     </div>
     <div id="ourTeam" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        Staffs
+        {{$t('ourTeamTitle')}}
       </div>
       <TeamIntro />
     </div>
@@ -58,12 +59,12 @@ export default {
   data: function() {
     return {
       serviceInfo: [
-        { name: 'Bronze', description: 'lorem ipsum asdf', color: '' },
-        { name: 'Gold', description: 'lorem ipsum asdf', color: '' },
-        { name: 'Silver', description: 'lorem ipsum asdf', color: '' },
-        { name: 'Platinum', description: 'lorem ipsum asdf', color: '' },
-        { name: 'Diamonds', description: 'lorem ipsum asdf', color: '' },
-        { name: 'Sapphire', description: 'lorem ipsum asdf', color: '' }
+        { name: $t('bronze'), description: $t('bronzeInt'), color: '' },
+        { name: $t('silver'), description: $t('silverInt'), color: '' },
+        { name: $t('gold'), description: $t('goldInt'), color: '' },
+        { name: $t('platinum'), description: $t('platinumeInt'), color: '' },
+        { name: $t('diamond'), description: $t('diamondInt'), color: '' },
+        { name: $t('sapphire'), description: $t('sapphireInt'), color: '' }
       ]
     }
   },

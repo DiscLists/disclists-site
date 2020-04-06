@@ -23,19 +23,19 @@
           href="#aboutUs"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
-          about Us
+        {{$t('aboutusTitle')}}
         </a>
         <a
           href="#serviceIntro"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
-          Service Intro
+        {{$t('serviceIntroTitle')}}
         </a>
         <a
           href="#ourTeam"
           class="block mt-4 lg:inline-block lg:mt-0 color2 hover:text-white mr-4"
         >
-          OurTeam
+        {{$t('ourTeamTitle')}}
         </a>
       </div>
       <div>
@@ -43,20 +43,20 @@
           class="text-white mx-4 text-sm hover:text-gray-400"
           @click="$i18n.locale = 'ko'"
         >
-          KO
+          {{$t('korean')}}
         </button>
         <span class="text-white">/</span>
         <button
           class="text-white mx-4 text-sm hover:text-gray-400"
           @click="$i18n.locale = 'en'"
         >
-          EN
+          {{$t('english')}}
         </button>
       </div>
       <a
         href="https://discord.gg/bGkKVSj"
         class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 lg:mt-0"
-        >Join Server</a
+        >{{$t('discord')}}</a
       >
     </div>
   </nav>

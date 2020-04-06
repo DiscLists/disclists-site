@@ -5,19 +5,19 @@
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Jia</div>
+        <div class="font-bold text-xl mb-2">{{$t('jia')}}</div>
         <p class="text-gray-600 text-base">
-          대충 소개글
+          {{$t('jiaInt')}}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#CEO</span
+          >{{$t('ceotag')}}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#BOT</span
+          >{{$t('botdevtag')}}</span
         >
       </div>
     </div>
@@ -26,19 +26,19 @@
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">PMH</div>
+        <div class="font-bold text-xl mb-2">{{$t('pmh')}}</div>
         <p class="text-gray-600 text-base">
-          소개가 필요없음 걍 변태임
+        {{$t('pmhInt')}}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#CTO</span
+          >{{$t('ctotag')}}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#BOT</span
+          >{{$t('botdevtag')}}</span
         >
       </div>
     </div>
@@ -47,19 +47,62 @@
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Gangjun</div>
+        <div class="font-bold text-xl mb-2">{{$t('gangjun')}}</div>
         <p class="text-gray-600 text-base">
-          ㅇㅁㅇ
+          {{$t('gangjunInt')}}
+          <a href="https://gangjun.dev/" class="hover:text-gray-300"> Visit My Website</a>
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#STAFF</span
+          >{{$t('stafftag')}}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >#WEB</span
+          >{{$t('webdevtag')}}</span
+        >
+      </div>
+    </div>
+    <div
+      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      v-scrollanimation
+    >
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">{{$t('dissolve')}}</div>
+        <p class="text-gray-600 text-base">
+        {{$t('dissolveInt')}}
+        </p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+          >{{$t('stafftag')}}</span
+        >
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+          >{{$t('trantag')}}</span
+        >
+      </div>
+    </div>
+    <div
+      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      v-scrollanimation
+    >
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">{{$t('comjun')}}</div>
+        <p class="text-gray-600 text-base">
+        {{$t('comjunInt')}}
+        </p>
+      </div>
+      <div class="px-6 py-4">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+          >{{$t('csotag')}}</span
+        >
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+          >{{$t('botdevtag')}}</span
         >
       </div>
     </div>
