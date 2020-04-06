@@ -2,7 +2,7 @@
   <span class="text-white text-center">
     <div id="header" class="hFull">
       <div class="pt-40">
-        <div class="mainText">DiscLists</div>
+        <div class="mainText">Disc Lists</div>
         <div class="text-xl">
           {{ $t('intro') }}
         </div>
@@ -10,6 +10,16 @@
       <span class="guide hidden lg:inline">
         <font-awesome-icon icon="arrow-up" class="ml-4 w-4 h-4" />
       </span>
+      <div class="arrowBox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="arrowBox">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
@@ -71,7 +81,7 @@ export default {
   text-transform: uppercase;
 }
 
-.tekoFont{
+.tekoFont {
   font-family: 'Teko', sans-serif;
 }
 
@@ -99,16 +109,16 @@ export default {
 
 .arrowBox {
   position: absolute;
-  top: 80%;
-  left: 50%;
+  top: 70vh;
+  left: 49vw;
 }
 
 .arrowBox span {
   display: block;
   width: 20px;
   height: 20px;
-  border-bottom: 1.3px solid #121212;
-  border-right: 1.3px solid #121212;
+  border-bottom: 1.3px solid #fff;
+  border-right: 1.3px solid #fff;
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
