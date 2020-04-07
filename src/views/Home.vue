@@ -7,6 +7,7 @@
           <div>{{ $t('intro1') }}</div>
           <div>{{ $t('intro2') }}</div>
           <div>{{ $t('intro3') }}</div>
+          <div>{{ $t('intro4') }}</div>
         </div>
       </div>
       <span class="guide hidden lg:inline">
