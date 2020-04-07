@@ -29,7 +29,10 @@
         {{ $t('aboutusTitle') }}
       </div>
       <div>
-        {{ $t('aboutus') }}
+        {{ $t('aboutus1') }} <br />
+        {{ $t('aboutus2') }} <br />
+        {{ $t('aboutus3') }} <br />
+        {{ $t('aboutus4') }}
       </div>
     </div>
     <div id="serviceIntro" class="mx-4 lg:mx-64 mt-24">
