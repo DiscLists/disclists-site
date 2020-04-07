@@ -1,10 +1,10 @@
 {
-  "intro1": "lorem",
-  "intro2": "lorem",
-  "intro3": "lorem",
+  "intro1": "혹시 무언갈 개발했는데 홍보나, 호스팅이 어려우셨나요?",
+  "intro2": "이곳은 자유로운 채널 장착은 물론, 소통과 홍보, 모든것이 가능한 디스코드 서버입니다.",
+  "intro3": "여러분들의 상상력을 마음껏 펼치세요!",
 
-  "aboutusTitle": "팀 소개",
-  "aboutus":"lorem",
+  "aboutusTitle": "서비스 소개",
+  "aboutus":"a",
   "serviceIntroTitle":"등급 소개",
   "ourTeamTitle":"스태프 소개",
   "korean":"한국어",
@@ -12,7 +12,7 @@
   "discord":"disclist 가입",
 
   "jia":"jia",
-  "jiaInt":"lorem",
+  "jiaInt":"안녕하세요. 저는 지아이고, 이 프로젝트의 CEO 입니다.",
   "pmh":"pmh",
   "pmhInt":"lorem",
   "gangjun":"gangjun",
