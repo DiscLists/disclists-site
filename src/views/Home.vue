@@ -25,7 +25,7 @@
     </div>
     <div id="aboutUs" class="mx-4 lg:mx-64 mt-18">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        {{$t('aboutusTitle')}}
+        {{ $t('aboutusTitle') }}
       </div>
       <div>
         {{ $t('aboutus') }}
@@ -33,18 +33,13 @@
     </div>
     <div id="serviceIntro" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        {{$t('serviceIntroTitle')}}
+        {{ $t('serviceIntroTitle') }}
       </div>
-      <div class="lg:grid grid-cols-3 gap-4 flex justify-cen임er mt-4">
-        <!-- 이거는 저기 밑에 script->data->serverinfo 임 -->
-        <div v-for="(item, index) in serviceInfo" :key="index">
-          <ServiceInfoCard :data="item" />
-        </div>
-      </div>
+      <ServiceInfoCard />
     </div>
     <div id="ourTeam" class="mx-4 lg:mx-64 mt-24">
       <div class="text-center text-5xl tekoFont tracking-wide">
-        {{$t('ourTeamTitle')}}
+        {{ $t('ourTeamTitle') }}
       </div>
       <TeamIntro />
     </div>
@@ -58,16 +53,7 @@ export default {
   name: 'Home',
   data: function() {
     alert($i18n)
-    return {
-      serviceInfo: [
-        { name: $t('bronze'), description: $t('bronzeInt'), color: '' },
-        { name: $t('silver'), description: $t('silverInt'), color: '' },
-        { name: $t('gold'), description: $t('goldInt'), color: '' },
-        { name: $t('platinum'), description: $t('platinumeInt'), color: '' },
-        { name: $t('diamond'), description: $t('diamondInt'), color: '' },
-        { name: $t('sapphire'), description: $t('sapphireInt'), color: '' }
-      ]
-    }
+    return {}
   },
   components: {
     ServiceInfoCard,
@@ -118,7 +104,7 @@ export default {
 .arrowBox {
   position: absolute;
   top: 70vh;
-  left: 49vw;
+  left: 49.5vw;
 }
 
 .arrowBox span {

@@ -1,11 +1,63 @@
 <template>
-  <div v-scrollanimation>
-    <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{ data.name }}</div>
-        <p class="text-gray-600 text-base">
-          {{ data.description }}
-        </p>
+  <div class="lg:grid grid-cols-3 gap-4 flex justify-cen임er mt-4">
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('bronz') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('bronzInt') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('silver') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('silverInt') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('gold') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('goldInt') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('platinum') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('platinumInt') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('diamond') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('diamondInt') }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-scrollanimation>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ $t('sapphire') }}</div>
+          <p class="text-gray-600 text-base">
+            {{ $t('sapphireInt') }}
+          </p>
+        </div>
       </div>
     </div>
   </div>

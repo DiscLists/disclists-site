@@ -49,7 +49,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">{{$t('gangjun')}}</div>
         <p class="text-gray-600 text-base">
-          {{$t('gangjunInt')}}
+          <a href='https://gangjun.dev/'>{{$t('gangjunInt')}}</a>
         </p>
       </div>
       <div class="px-6 py-4">
