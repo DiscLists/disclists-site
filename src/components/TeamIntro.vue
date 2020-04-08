@@ -1,107 +1,107 @@
 <template>
-      <div class="lg:grid grid-cols-3 gap-4 flex justify-center mt-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
     <div
-      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      class="w-full rounded overflow-hidden shadow-xl darkBG mx-auto"
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{$t('jia')}}</div>
+        <div class="font-bold text-xl mb-2">{{ $t('jia') }}</div>
         <p class="text-gray-600 text-base">
-          {{$t('jiaInt')}}
+          {{ $t('jiaInt') }}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('ceotag')}}</span
+          >{{ $t('ceotag') }}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('botdevtag')}}</span
+          >{{ $t('botdevtag') }}</span
         >
       </div>
     </div>
     <div
-      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      class="w-full rounded overflow-hidden shadow-xl darkBG mx-auto"
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{$t('pmh')}}</div>
+        <div class="font-bold text-xl mb-2">{{ $t('pmh') }}</div>
         <p class="text-gray-600 text-base">
-        {{$t('pmhInt')}}
+          {{ $t('pmhInt') }}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('ctotag')}}</span
+          >{{ $t('ctotag') }}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('botdevtag')}}</span
+          >{{ $t('botdevtag') }}</span
         >
       </div>
     </div>
     <div
-      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      class="w-full rounded overflow-hidden shadow-xl darkBG mx-auto"
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{$t('gangjun')}}</div>
+        <div class="font-bold text-xl mb-2">{{ $t('gangjun') }}</div>
         <p class="text-gray-600 text-base">
-          <a href='https://gangjun.dev/'>{{$t('gangjunInt')}}</a>
+          <a href="https://gangjun.dev/">{{ $t('gangjunInt') }}</a>
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('stafftag')}}</span
+          >{{ $t('stafftag') }}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('webdevtag')}}</span
+          >{{ $t('webdevtag') }}</span
         >
       </div>
     </div>
     <div
-      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      class="w-full rounded overflow-hidden shadow-xl darkBG mx-auto"
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{$t('dissolve')}}</div>
+        <div class="font-bold text-xl mb-2">{{ $t('dissolve') }}</div>
         <p class="text-gray-600 text-base">
-        {{$t('dissolveInt')}}
+          {{ $t('dissolveInt') }}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('stafftag')}}</span
+          >{{ $t('stafftag') }}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('trantag')}}</span
+          >{{ $t('trantag') }}</span
         >
       </div>
     </div>
     <div
-      class="max-w-sm rounded overflow-hidden shadow-xl darkBG"
+      class="w-full rounded overflow-hidden shadow-xl darkBG mx-auto"
       v-scrollanimation
     >
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{$t('comjun')}}</div>
+        <div class="font-bold text-xl mb-2">{{ $t('comjun') }}</div>
         <p class="text-gray-600 text-base">
-        {{$t('comjunInt')}}
+          {{ $t('comjunInt') }}
         </p>
       </div>
       <div class="px-6 py-4">
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('csotag')}}</span
+          >{{ $t('csotag') }}</span
         >
         <span
           class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
-          >{{$t('botdevtag')}}</span
+          >{{ $t('botdevtag') }}</span
         >
       </div>
     </div>

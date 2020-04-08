@@ -1,7 +1,7 @@
 <template>
-  <div class="lg:grid grid-cols-3 gap-4 flex justify-cen임er mt-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('bronz') }}</div>
           <p class="text-gray-600 text-base">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('silver') }}</div>
           <p class="text-gray-600 text-base">
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('gold') }}</div>
           <p class="text-gray-600 text-base">
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('platinum') }}</div>
           <p class="text-gray-600 text-base">
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('diamond') }}</div>
           <p class="text-gray-600 text-base">
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div v-scrollanimation>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl">
+      <div class="w-full rounded overflow-hidden shadow-lg hover:shadow-xl">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ $t('sapphire') }}</div>
           <p class="text-gray-600 text-base">
